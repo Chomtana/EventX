@@ -1,0 +1,47 @@
+{
+  "name": "eventx",
+  "version": "1.0.0",
+  "description": "We make hard event such as css event, resize event easy",
+  "main": "lib/eventx.js",
+  "scripts": {
+    "test": "webpack && babel src -d lib",
+    "build": "webpack --config ./webpack.prod.js && babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chomtana/EventX"
+  },
+  "keywords": [
+    "eventx",
+    "ResizeObserver",
+    "resize-observer",
+    "resize-events",
+    "resize-DOM",
+    "resize",
+    "css-event",
+    "css",
+    "event",
+    "observer",
+    "jquery",
+    "element",
+    "mutation",
+    "mutation-event"
+  ],
+  "author": "Chomtana",
+  "license": "MIT",
+  "dependencies": {
+    "eventx-core": "^0.1.3",
+    "eventx-css-event": "^0.1.1",
+    "eventx-resizeobserver-event": "^0.1.2",
+    "npm": "^5.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.0-beta.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
